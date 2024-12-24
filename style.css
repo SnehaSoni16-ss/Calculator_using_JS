@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  
+  background-color: linear-gradient(to right, #74ebd5, #acb6e5);
+  margin: 0;
+}
+
+
+.button {
+    width: 66px;
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background: linear-gradient(to right, #667eea, #764ba2); /* Button gradient */
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+.button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.2);
+    background: linear-gradient(to right, #764ba2, #667eea);
+}
+
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    background: linear-gradient(to right, #fdfbfb, #ebedee); 
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px #2c3e50;
+    background: linear-gradient(to right, #abb9c7, #aae0e8);
+    font-size: 16px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.calc{
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Dark gradient background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth */
+    text-align: center;
+    color: #ffffff; 
+}
